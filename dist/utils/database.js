@@ -17,7 +17,7 @@ var dbconnect = /*#__PURE__*/function () {
     return _regeneratorRuntime().wrap(function _callee$(_context) {
       while (1) switch (_context.prev = _context.next) {
         case 0:
-          mongodbUrl = process.env.MONOGO_URL;
+          mongodbUrl = "mongodb+srv://pramodacharya808:UMtRy2Q8i1ggc5kV@cluster0.pehnb90.mongodb.net";
           _context.next = 3;
           return _mongoose["default"].connect("".concat(mongodbUrl, "/admission-db")).then(function () {
             console.log("✅ DB Connected successfully");
